@@ -1,0 +1,33 @@
+body {
+	font-family: Tahoma;
+}
+
+section{
+	width: 180px;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+
+#lista ul {
+	list-style:none;
+	padding:0px;
+}
+
+#lista ul li a {
+	display: block;
+	background-color: #333;
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+#lista ul li a:hover {
+	-moz-transform:rotate(-5deg);
+	-moz-box-shadow: 10px 10px 20px #000000;
+	-webkit-transform:rotate(-5deg);
+	-webkit-box-shadow:10px 10px 20px #000000;
+	transform: rotate(-10deg);
+	box-shadow: 10px 10px 20px #000000;
+	margin-left: 10px;
+}
+
